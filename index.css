@@ -1,0 +1,297 @@
+
+html {
+  font-family: noto sans,-apple-system,BlinkMacSystemFont,segoe ui,oxygen,ubuntu,cantarell,fira sans,droid sans,helvetica neue,sans-serif;;
+}
+
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  text-shadow: 2px 2px 4px #000000;
+  margin-bottom: 30px;
+}
+
+h1 {
+  color: #ff5c5c;
+  font-size: 36px;
+}
+
+canvas{
+width:91vmin;
+height:13vmin
+}
+
+body p , h2{
+  color: #fff;
+}
+
+table {
+filter: 100%;
+z-index:10;
+position: relative;
+margin: 0 auto;
+}
+
+.container {
+  background-color: radial-gradient(transparent 50%, black);
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  display: none;
+  filter: 100%;
+  z-index:1;
+  position: relative;
+}
+
+.bg {
+  position: fixed;
+  right: 0;
+  top: -30px;
+  bottom: -30px;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.input-container {
+  margin-top: 20px;
+}
+
+.input-container input {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  width: 200px;
+}
+
+.input-container input:hover {
+  opacity: 0.7;
+  border: 3px solid #c91616c5;
+  box-shadow: 0 0 50px #d4a91b;
+}
+
+.input-container button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff5c5c;
+  color: #1add24;
+  cursor: pointer;
+}
+
+.input-container button:hover {
+  opacity: 0.7;
+  box-shadow: 0 0 30px #33bf26;
+}
+
+#personalized, #demo {
+  display: none;
+}
+
+#personalized.active {
+  display: block;
+}
+
+#personalized h2 {
+  color: #FEA1A1;
+  font-size: 28px;
+}
+
+.photo-gallery {
+  margin-top: 0px;
+}
+
+.banner img {
+  width: 800px;
+  margin: 10px;
+  border-radius: 30px;
+  border: 3px solid #d4a91b81;
+  box-shadow: 0 0 30px #d4a91b;
+}
+
+.photo-gallery #img3 {
+  height: 228px;
+}
+
+.photo-gallery img {
+  width: 200px;
+  margin: 10px;
+  border-radius: 30px;
+  border: 3px solid #bf262663;
+  box-shadow: 0 0 30px #bf3d26;
+}
+
+.birthday-message {
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+.guestbook {
+  margin-top: 30px;
+  text-align: left;
+}
+
+.guestbook textarea {
+  width: 100%;
+  height: 80px;
+  padding: 10px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+}
+
+.guestbook button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff5c5c;
+  color: #fff;
+  cursor: pointer;
+}
+
+.fun-facts {
+  margin-top: 30px;
+  text-align: left;
+  
+}
+
+.fun-facts p {
+  margin-bottom: 10px;
+}
+
+#videos-and-music {
+  margin-top: 30px;
+}
+
+.social-media {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.social-media .media1:hover {
+  border: 3px solid #bf262663;
+  box-shadow: 0 0 30px #bf3d26;
+}
+
+.social-media .media2:hover {
+  border: 3px solid #26bf3363;
+  box-shadow: 0 0 30px #33bf26;
+}
+
+.social-media a {
+  display: inline-block;
+  color: #ff5c5c;
+  font-size: 24px;
+  padding: 10px;
+}
+
+.hint {
+  z-index: 1;
+  color: #000;
+  mix-blend-mode: overlay;
+  filter: invert(100%);
+  position: fixed;
+  top: 50%;
+  left: 43%;
+  font-family: brandon light;
+  font-size: 2.75vmin;
+  letter-spacing: .2vmin;
+  font-weight: 700;
+}
+
+#games label{
+  color: white;
+}
+
+.memorylab img{
+  width: 200px;
+  height: 200px;
+  border-radius: 30px;
+  margin: 10px;
+  border: 3px solid #bf262663;
+  box-shadow: 0 0 30px #bf3d26;
+}
+
+.memorylab img:hover{
+  border: 3px solid #26bf3363;
+  box-shadow: 0 0 30px #33bf26;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.to-top {
+background: white;
+position: fixed;
+bottom: 16px;
+right:32px;
+width:50px;
+height:50px;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size:32px;
+color:#1f1f1f;
+text-decoration: none;
+opacity:0;
+pointer-events: none;
+transition: all .4s;
+}
+
+.to-top.active {
+bottom:32px;
+pointer-events: auto;
+opacity:1;
+}
+
+.container .to-top:hover {
+border: 3px solid #26bf3363;
+box-shadow: 0 0 30px #33bf26;
+}
+
+nav a:hover{
+color: white;
+}
+
+nav ul{
+font-family: 'Montserrat';
+}
+
+nav a{
+text-decoration: none;
+color: rgba(255, 255, 255, 0.479);
+}
+
+#fixmenu {
+overflow: hidden;
+position: fixed; /* Set the navbar to fixed position */
+top: 0; /* Position the navbar at the top of the page */
+margin: 15px 0px 0px 0px;
+padding: 5px 0px 20px 0px;
+}
+
+nav a{
+text-decoration: none;
+color: rgba(255, 255, 255, 0.479);
+}
+
+ul{
+list-style-type: none;
+}
+
+ul li{
+float: left;
+width: 150px;
+height: 20px;
+line-height: 20px;
+}
+
+#youtubebruh {
+border: 3px solid #26bf3363;
+box-shadow: 0 0 30px #33bf26;
+}
